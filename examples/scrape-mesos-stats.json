@@ -39,7 +39,7 @@
   },
   "secrets": {
     "secret0": {
-      "source": "logging/metricsvcuserpassword"
+      "source": "logging/svcuserpassword"
     }
   },
   "unreachableStrategy": {
@@ -53,6 +53,6 @@
       "secret": "secret0"
     },
     "DCOS_URL": "https://master.mesos",
-    "MESOS_SVC_U": "awsdev_logging_user"
+    "MESOS_SVC_U": "pvtc_logging_user"
   }
 }
