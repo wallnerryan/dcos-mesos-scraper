@@ -1,5 +1,5 @@
 
-# DC/OS Marathon Scraper
+# DC/OS Mesos Scraper
 
 This scraper does a specific thing, that this is.
 
