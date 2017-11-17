@@ -1453,12 +1453,36 @@
               "legendFormat": "master_tasks_lost",
               "refId": "E",
               "step": 2
+            },
+            {
+              "expr": "master_tasks_unreachable",
+              "format": "time_series",
+              "intervalFactor": 2,
+              "legendFormat": "master_tasks_unreachable",
+              "refId": "F",
+              "step": 2
+            },
+            {
+              "expr": "master_tasks_gone",
+              "format": "time_series",
+              "intervalFactor": 2,
+              "legendFormat": "master_tasks_gone",
+              "refId": "G",
+              "step": 2
+            },
+            {
+              "expr": "master_tasks_error",
+              "format": "time_series",
+              "intervalFactor": 2,
+              "legendFormat": "master_tasks_error",
+              "refId": "H",
+              "step": 2
             }
           ],
           "thresholds": [],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Running, Staging, Starting, Killing, Lost Tasks",
+          "title": "Running, Staging, Starting, Killing, Lost, Gone, Error, Unreachable Tasks",
           "tooltip": {
             "shared": true,
             "sort": 0,
@@ -1537,5 +1561,5 @@
   },
   "timezone": "",
   "title": "Mesos Metrics",
-  "version": 9
+  "version": 10
 }
